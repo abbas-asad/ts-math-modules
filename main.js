@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var add_js_1 = require("./add.js");
+var sub_js_1 = require("./sub.js");
+var mul_js_1 = require("./mul.js");
+var div_js_1 = require("./div.js");
+console.log("Arithmetic Operations: ");
+console.log("Addition: 10 + 10 = ".concat((0, add_js_1.default)(10, 10)));
+console.log("Subtraction: 10 - 10 = ".concat((0, sub_js_1.default)(10, 10)));
+console.log("Multiplication: 10 * 10 = ".concat((0, mul_js_1.default)(10, 10)));
+console.log("Division: 10 / 10 = ".concat((0, div_js_1.default)(10, 10)));
